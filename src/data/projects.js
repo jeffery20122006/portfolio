@@ -1,0 +1,48 @@
+import { Bot, MessagesSquare, ScanSearch, ShieldAlert } from 'lucide-react'
+
+export const projects = [
+  {
+    id: 'civicvision-ai',
+    name: 'CIVICVISION AI',
+    category: 'AI / MACHINE LEARNING / CIVIC TECHNOLOGY',
+    status: 'Prototype',
+    description: 'An AI-based public issue detection concept exploring how image analysis can support civic issue reporting.',
+    technologies: ['Python', 'YOLO', 'React', 'Node.js'],
+    icon: ScanSearch,
+    theme: 'civicvision',
+    artLabel: 'ISSUE / INSIGHT',
+  },
+  {
+    id: 'phishguard',
+    name: 'PhishGuard',
+    category: 'SECURITY CONCEPT',
+    status: 'Concept',
+    description: 'A Python-based phishing detection concept.',
+    technologies: ['Python'],
+    icon: ShieldAlert,
+    theme: 'phishguard',
+    artLabel: 'SPOT THE SIGNAL',
+  },
+  {
+    id: 'interviewforge',
+    name: 'InterviewForge',
+    category: 'LEARNING CONCEPT',
+    status: 'Concept',
+    description: 'An interview preparation platform concept.',
+    technologies: ['Platform concept'],
+    icon: MessagesSquare,
+    theme: 'interviewforge',
+    artLabel: 'PRACTICE / PREPARE',
+  },
+  {
+    id: 'ai-chatbot',
+    name: 'AI Chatbot',
+    category: 'AI CONCEPT',
+    status: 'Concept',
+    description: 'An AI-powered chatbot concept.',
+    technologies: ['AI'],
+    icon: Bot,
+    theme: 'aichatbot',
+    artLabel: 'ASK / EXPLORE',
+  },
+]
